@@ -16,3 +16,19 @@ D:\documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Mvc.xml
 D:\documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojResolveAssemblyReference.cache
 D:\documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.dll
 D:\documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.pdb
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\HelloMVC.dll.config
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\HelloMVC.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\HelloMVC.pdb
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Helpers.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Razor.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Deployment.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Razor.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Razor.xml
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.xml
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Deployment.xml
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Razor.xml
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Helpers.xml
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojResolveAssemblyReference.cache
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.dll
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.pdb

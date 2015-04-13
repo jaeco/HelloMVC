@@ -1,4 +1,4 @@
-﻿
+﻿@model HelloMVC.Models.ContactData
 @{
     Layout = null;
 }
@@ -12,11 +12,20 @@
     <title>Index</title>
 </head>
 <body>
-    <div class="main">
-        <div class="form_box">
-            k
-            <div class="welcome_header">
-                Welcome!
+    <div id="main">
+        <div id="welcome">
+            <h1 id="welcome_header">Welcome!</h1>
+
+            <div class="form_box">
+                @using (Html.BeginForm())
+                {
+                    <p>First Name:<br />  @Html.TextBoxFor(x => x.FirstName)</p>
+                    <p>Last Name:<br /> @Html.TextBoxFor(x => x.LastName)</p>
+                    <p>Phone:<br /> @Html.TextBoxFor(x => x.PhoneNumber)</p>
+                    <p>Email:<br /> @Html.TextBoxFor(x => x.Email)</p>
+                    <p>Age:<br /> @Html.TextBoxFor(x => x.Age)</p>
+                    <input id="submit_button" type="submit" value="Submit Contact Information" />
+                }
             </div>
         </div>
     </div>
