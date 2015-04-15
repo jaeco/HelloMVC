@@ -9,22 +9,22 @@ namespace HelloMVC.Controllers
 {
     public class HomeController : Controller
     {
-        
+        [HttpGet]
         public ViewResult Index()
         {
             return View();
         }
 
-        [HttpGet]
-        public ViewResult Confirmation()
+       /* [HttpGet]
+        public ViewResult SubmissionConfirmation()
         {
             return View();
         }
-
+        */
         [HttpPost]
         public ViewResult SubmissionConfirmation(ContactData contactData)
         {
-            return View("Test", contactData);
+            return View(contactData);
         }
     }
 }

@@ -9,6 +9,8 @@
     margin-top: 40px;
     position: relative;
 
+    border: 2px solid purple;
+
     box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
     -moz-box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
     -webkit-box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
@@ -24,15 +26,15 @@
 }
 #welcome{
     border: 2px solid red;
-    margin-left: 50%;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    width: 23%;
+    width: 28%;
 
     position: absolute;
 }
 #welcome_header{
-    border: 2px solid red;
+    border: 2px solid yellow;
     background-color: #0088ff;
     
     font-size: 50px;
@@ -49,9 +51,9 @@
 }
 
 div.form_box{
-    #border: 2px solid red;
+    border: 2px solid green;
     background-color: #000000;
-    #width: 90%;
+    width: 90%;
     margin: auto;
 
     -webkit-border-radius: 10px;

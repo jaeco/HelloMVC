@@ -29,6 +29,6 @@ D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.xml
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Deployment.xml
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Razor.xml
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Helpers.xml
-D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojResolveAssemblyReference.cache
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.dll
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.pdb
+D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojResolveAssemblyReference.cache
