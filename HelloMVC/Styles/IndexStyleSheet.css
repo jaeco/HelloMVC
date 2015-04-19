@@ -66,3 +66,21 @@ div.form_box p, div.form_box #submit_button{
 div.form_box p{
     color: #ffffff;
 }
+
+.field-validation-error {
+    color: #ff8500;
+}
+.field-validation-valid {
+    display: none;
+}
+.input-validation-error {
+    border: 1px dashed #ff8500;
+    background-color: #ffd3a2;
+}
+.validation-summary-errors {
+    font-weight: bold;
+    color: #ff8500;
+}
+.validation-summary-valid {
+    display: none;
+}

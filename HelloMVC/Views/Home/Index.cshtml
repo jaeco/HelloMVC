@@ -20,6 +20,7 @@
             <div class="form_box">
                 @using (Html.BeginForm("SubmissionConfirmation","Home"))
                 {
+                    @Html.ValidationSummary()
                     <p>First Name:<br />  @Html.TextBoxFor(x => x.FirstName)</p>
                     <p>Last Name:<br /> @Html.TextBoxFor(x => x.LastName)</p>
                     <p>Phone:<br /> @Html.TextBoxFor(x => x.PhoneNumber)</p>

@@ -31,4 +31,3 @@ D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Webpages.Razo
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\bin\System.Web.Helpers.xml
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.dll
 D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.pdb
-D:\James Corkran\Documents\GitHub\HelloMVC\HelloMVC\obj\Debug\HelloMVC.csprojResolveAssemblyReference.cache

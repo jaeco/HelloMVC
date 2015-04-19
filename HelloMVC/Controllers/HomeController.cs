@@ -15,16 +15,18 @@ namespace HelloMVC.Controllers
             return View();
         }
 
-       /* [HttpGet]
-        public ViewResult SubmissionConfirmation()
-        {
-            return View();
-        }
-        */
         [HttpPost]
         public ViewResult SubmissionConfirmation(ContactData contactData)
         {
-            return View(contactData);
+            if (ModelState.IsValid)
+            {
+                return View("SubmissionConfirmation", contactData);
+            }
+            else
+            {
+                //validation error
+                return View("Index", contactData);
+            }
         }
     }
 }
