@@ -92,6 +92,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactData.cs" />
+    <Compile Include="Models\EmailValidation.cs" />
+    <Compile Include="Models\PhoneValidation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

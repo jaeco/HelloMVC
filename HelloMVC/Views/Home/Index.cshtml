@@ -22,9 +22,13 @@
                 {
                     @Html.ValidationSummary()
                     <p>First Name:<br />  @Html.TextBoxFor(x => x.FirstName)</p>
+                    
                     <p>Last Name:<br /> @Html.TextBoxFor(x => x.LastName)</p>
+                    
                     <p>Phone:<br /> @Html.TextBoxFor(x => x.PhoneNumber)</p>
+                    
                     <p>Email:<br /> @Html.TextBoxFor(x => x.Email)</p>
+                    
                     <p>Age:<br /> @Html.TextBoxFor(x => x.Age)</p>
                     <div id="submit_button"><input type="submit" value="Submit" /></div>
                 }
