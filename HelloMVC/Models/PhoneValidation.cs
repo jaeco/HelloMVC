@@ -6,15 +6,15 @@ using System.Text;
 
 namespace HelloMVC.Models
 {
-    class PhoneValidationAttribute : ValidationAttribute
+    public class PhoneValidationAttribute : ValidationAttribute
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
             var model = (ContactData)validationContext.ObjectInstance;
 
-            if (value == null && model.PhoneNumber == null)
+            if (value == null && model.Email == null)
             {
-                return new ValidationResult("Please enter either a phone number or email.");
+                return new ValidationResult("Please enter a phone number <OR>");
             }
             else
             {

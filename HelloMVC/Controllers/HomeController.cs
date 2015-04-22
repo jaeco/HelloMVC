@@ -24,6 +24,12 @@ namespace HelloMVC.Controllers
             }
             else
             {
+/**                if(contactData.PhoneNumber == null || contactData.Email == null)
+                {
+                ModelState.AddModelError("Phone", "Please enter your phone number or email");
+                ModelState.AddModelError("Email", "");
+                }
+**/
                 //validation error
                 return View("Index", contactData);
             }

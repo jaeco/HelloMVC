@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #000000;
+    position: relative;
+}
+#main {
+    width: 798px;
+    height: 550px;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+
+    border: 2px solid purple;
+
+    box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
+    -moz-box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
+    -webkit-box-shadow: 10px 10px 30px rgba(100, 255, 255, 0.6);
+
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../Images/SlitherSnake1.jpg);
+}
+#thanks_header{
+    background-color: #0088ff;
+    
+    font-size: 45px;
+    font-weight: 600;
+    color: #ffffff;
+    text-indent: 5px;
+    margin-top: 0%;
+    
+    width: 98%;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#response{
+    background-color: #000000;
+    border: 2px solid blue;
+    color: #ffffff;
+
+    text-align: center;
+
+    width: 75%;
+    margin: auto;
+}
+#age_error{
+    color: red;
+}

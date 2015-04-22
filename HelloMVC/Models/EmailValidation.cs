@@ -12,9 +12,13 @@ namespace HelloMVC.Models
         {
             var model = (ContactData)validationContext.ObjectInstance;
 
-            if(value == null && model.PhoneNumber == null)
+            if (value == null && model.PhoneNumber == null)
             {
-                return new ValidationResult("");
+                return new ValidationResult("Please enter an email address.");
+            }
+            if (value == null && model.PhoneNumber != null)
+            {
+                return ValidationResult.Success;
             }
             else
             {

@@ -14,8 +14,26 @@
     <title>Submission Confirmation</title>
 </head>
 <body>
-    <div> 
-        <h1>Thanks @Model.FirstName for the submission!</h1>
+    <div id="main"> 
+        <h1 id="thanks_header">Thanks @Model.FirstName for the submission!</h1>
+        <div id="response">
+        @if(Model.Email != null && Model.PhoneNumber != null)
+        {
+            <p>We will establish contact via phone call and email from Gmail.</p>
+        }
+        @if (Model.Email != null && Model.PhoneNumber == null)
+        {
+            <p>We will establish contact via email from Gmail.</p>
+        }
+        @if (Model.Email == null && Model.PhoneNumber != null)
+        {
+            <p>We will establish contact via phone call.</p>
+        }
+        @if(Model.Age <= 18)
+        {
+            <p id="age_error">We noticed that you are @Model.Age year(s) old.<br />Due to this information we will instead be contacting your parent(s)/guardian(s)</p>
+        }
+        </div>
     </div>
 </body>
 </html>

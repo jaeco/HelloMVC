@@ -83,6 +83,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\SlitherSnake1.jpg" />
     <Content Include="Styles\IndexStyleSheet.css" />
+    <Content Include="Styles\SubmissionStyelSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
